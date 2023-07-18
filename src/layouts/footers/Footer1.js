@@ -5,46 +5,6 @@ const Footer1 = ({ noNewsletters }) => {
     <footer
       className={`template-footer ${noNewsletters ? "" : "have-cta-boxed-one"}`}
     >
-      {!noNewsletters && (
-        <div className="cta-boxed-one">
-          <div className="container">
-            <div
-              className="cta-inner bg-color-secondary bg-size-cover blend-mode-multiply"
-              style={{
-                backgroundImage: "url(assets/img/cta-img/ctaboxed1.jpg)",
-              }}
-            >
-              <div className="row justify-content-center">
-                <div className="col-xl-6 col-lg-8 col-md-10">
-                  <div className="cta-content text-center">
-                    <div className="section-heading heading-white">
-                      <span className="tagline">Tanya dan Sarankan Kami Apapun</span>
-                      <h2 className="title">
-                        Informasi terkait lapangan, harga dan fasilitas
-                      </h2>
-                    </div>
-                    <ul className="cta-buttons d-flex justify-content-center flex-wrap">
-                      <li>
-                        <a href="mailto:sap.dicky19@gmail.com" className="template-btn template-btn-white">
-                          Tanya Sesuatu 
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/appointments"
-                          className="template-btn template-btn-bordered"
-                        >
-                          Booking Sekarang 
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
       <div className="footer-inner bg-color-grey">
         <div className="container">
           <div className="footer-widgets">

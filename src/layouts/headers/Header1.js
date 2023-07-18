@@ -19,6 +19,9 @@ const Header1 = ({ headerTopbar, position }) => {
             <div className="row align-items-center justify-content-between">
               <div className="col-lg-4">
                 <ul className="topbar-menu">
+                <li>
+                    <Link href="/service">Service</Link>
+                  </li>
                   <li>
                     <Link href="/faq">Faq</Link>
                   </li>
@@ -83,57 +86,18 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
+                      <Link href="service">Booking</Link>
+                </li>
+                <li>
                   <a href="#">
-                    More
+                    Info
                     <span className="dd-trigger">
                     </span>
                   </a>
                   <ul className="sub-menu">
-                    <li>
-                      <Link href="service">Lapangan</Link>
-                    </li>
                     <Pages />
                   </ul>
                 </li>
-                {/* <li>
-                  <Link href="/doctor">
-                    <a>
-                      Doctors
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Doctor />
-                  </ul>
-                </li> */}
-                {/* <li>
-                  <Link href="blog-standard">
-                    <a>
-                      Blog
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Blog />
-                  </ul>
-                </li> */}
-                {/* <li>
-                  <Link href="/shop">
-                    <a>
-                      Shop
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Shop />
-                  </ul>
-                </li> */}
                 <li>
                   <Link href="/contact">Contact</Link>
                 </li>

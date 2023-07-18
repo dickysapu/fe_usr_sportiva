@@ -205,7 +205,7 @@ const Faq = () => {
                   <img src="assets/img/section-img/faq_video.jpg" alt="Image" />
 
                   <a
-                    href="https://youtu.be/MPwe-8PCS0c"
+                    href=""
                     className="video-popup"
                     onClick={(e) => {
                       e.preventDefault();
